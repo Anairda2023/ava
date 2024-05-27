@@ -44,11 +44,11 @@
             .then(eventos =>{
                 eventos.forEach(c => {
                     
-                    let listareventos = document.createElement('button');
+                    // let dashboard = document.createElement('button');
                     let editar = document.createElement('button');
                     let remover = document.createElement('button');
                     
-                    listareventos.innerText = "Listar Eventos"
+                    // dashboard.innerText = "Dashboard"
                     remover.innerText = "Remover";
                     editar.innerText = "Editar";
                    
@@ -58,9 +58,9 @@
                     editar.addEventListener('click',() => {
                         editarEvento(c.id);
                     })
-                    listareventos.addEventListener('click',() => {
-                        listarEventos(c.id);
-                    })
+                    // dashboard.addEventListener('click',() => {
+                    //     listarEventos(c.id);
+                    // })
                     
                     let li = document.createElement('li');
                    

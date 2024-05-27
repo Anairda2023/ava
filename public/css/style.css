@@ -1,14 +1,29 @@
 * { margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
-    
-h1{ 
-    margin-top: 10px;
 
+body {
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 } 
 
+h1{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+label{
+    margin: 5px;
+}
 form {
+    
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -17,3 +32,13 @@ form {
     
     
 }
+input {
+    margin: 5px;
+}
+
+
+
+
+
+
+
