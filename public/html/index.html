@@ -44,7 +44,7 @@
             .then(eventos =>{
                 eventos.forEach(c => {
                     
-                    // let dashboard = document.createElement('button');
+                    
                     let editar = document.createElement('button');
                     let remover = document.createElement('button');
                     
@@ -58,11 +58,11 @@
                     editar.addEventListener('click',() => {
                         editarEvento(c.id);
                     })
-                    // dashboard.addEventListener('click',() => {
-                    //     listarEventos(c.id);
-                    // })
+
+                    
                     
                     let li = document.createElement('li');
+                    alert('Evento criado com sucesso');
                    
                     // li.innerText = `${c.titulo} -  ${c.descricao} - ${c.data} - ${c.local}`;
                    
